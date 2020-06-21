@@ -1,0 +1,40 @@
+* {
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: none;
+  
+    font-size: 25px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 100;
+  }
+  
+  html, body{
+    height: 99%; /* scrollbars show up if at 100% */
+    width: 99%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  table {
+    margin: auto; 
+  }
+  
+  #display {
+    text-align: right;
+    padding: 0px 12px;
+  }
+  
+  .btn {
+    padding: 15px 20px;
+  }
+  
+  .num {
+    background-color: #090909;
+  } 
+  
+  .btn:active {
+    background-color: white;
+    color: black;
+  }
+  
